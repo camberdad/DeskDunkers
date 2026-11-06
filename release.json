@@ -1,0 +1,28 @@
+{
+  "version": "toss-9f36765a18bc",
+  "builtAtUtc": "2026-11-06T23:57:51.5395856Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Fix Paper Toss arcs, wind aiming, basket collisions, and continuous play",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 2854960,
+      "sha256": "8830d68b3808ffbcb77de4995e735af0b45437b5983321153c2e892be312ce00"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 65955,
+      "sha256": "0a1634f13bae05c181197688bb772ac681b4c309f4a9b3cee8a47696153db6a2"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "9334254edd14784bf144511f581103a024feed62d1f0a5b77dbcbe123e1ff1fd"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7634777,
+      "sha256": "a48a3a45a650537f19cf7962cf9558d6e74d0d1bfe95b2b1eca6427d7b3dfb58"
+    }
+  ]
+}
