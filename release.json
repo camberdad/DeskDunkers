@@ -1,15 +1,15 @@
 {
-  "version": "V2",
-  "versionNumber": 2,
-  "assetVersion": "v2-e12c9a67ac20",
-  "builtAtUtc": "2026-11-07T00:27:16.1263135Z",
+  "version": "V3",
+  "versionNumber": 3,
+  "assetVersion": "v3-6c986369d1b0",
+  "builtAtUtc": "2026-11-07T00:58:23.0630740Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "description": "Release V2: accurate solid bin and rim, captured tosses, stronger wind arrow, and safe live updates",
+  "description": "Release V3: supplied ventilator fan and detailed office assets",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 2826399,
-      "sha256": "fa6d08ccc508fc6d9b33771c3963f1dba23115c7e6091250a1e34bdb5a563f43"
+      "bytes": 10580720,
+      "sha256": "6fbfebfd8f6a75e241a92350bcfcc609c30e35d0ad5717e46c84283eb3ae66e3"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -19,12 +19,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "c6da8b29062f0d16a5cf7fd514be29a7afb42f46f6192aa2bc4eaee6ef1efb7c"
+      "sha256": "fcbf8512e0599178bb30797f6ca2dd1902dba8bd5be84c46973ab06d306a1ba1"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7635073,
-      "sha256": "9c1d91ec050d19855bc2fd1f89515b7ea3febc3ad1a7b28585ae122411bfb4b6"
+      "bytes": 7639522,
+      "sha256": "9c13d74dde834e7c92dbe415835b3570ee0a825a4115472701218c76ba529a6b"
     }
   ]
 }
