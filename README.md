@@ -24,6 +24,8 @@ From V5 onward, every numbered web release is retained under `versions/vN/`. The
 
 V10 adds the supplied Dining Room OBJ to the automatic room rotation. Each four-toss room cycle now includes Office, Bedroom, Living Room and Dining Room; distances keep their independent three-toss cycle. The model uses palette-styled materials and reduced geometry with a clear central throwing lane. Existing scores, playtime and live updates carry forward.
 
+V11 places the fan opposite the displayed wind direction across all maps: RIGHT wind comes from the LEFT fan; LEFT wind comes from the RIGHT fan. The original left fan position is preserved. Nearby laptop/books switch to the free side to avoid overlap and restore their original positions when the fan is left. Fan facing, animation, wind strength and scoring are preserved.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V10](versions/v10/). Numbered folders are retained; the root URL remains current.
+Release folder: [V11](versions/v11/). Numbered folders are retained; the root URL remains current.

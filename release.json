@@ -1,16 +1,16 @@
 {
-  "version": "V10",
-  "versionNumber": 10,
-  "assetVersion": "v10-781f06ebb504",
-  "builtAtUtc": "2026-11-07T05:20:03.7394075Z",
+  "version": "V11",
+  "versionNumber": 11,
+  "assetVersion": "v11-f676e398f9b1",
+  "builtAtUtc": "2026-11-07T05:59:05.7391923Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v10/",
-  "description": "Release V10: add Dining Room map to the automatic room rotation",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v11/",
+  "description": "Release V11: place fan opposite wind direction across all maps",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 25371765,
-      "sha256": "4225838a4042574406c46f9ef3e38d7b9fdbec89ba029e1ed57085590367e5a6"
+      "bytes": 25370920,
+      "sha256": "a087119eda113f7d839bc7f07d48687f41606613aa0c9869285ee10723778cef"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -20,12 +20,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "e0f1335c0d92c48641870d1b08abf46a85976370e5cc3780a4575600f758c6c9"
+      "sha256": "234b53ce1d4b411ab00c9f20aa636a86cd28bab1ffe221d12b5e7694222d02be"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7697482,
-      "sha256": "ca8634db6eb5384a1259851b4cd75e802a8b0c5590dff52821db73d0dceb2bef"
+      "bytes": 7691676,
+      "sha256": "8df774f9ae3212543c4dc6a8bd006a7384493ac257a2f124a62d7d6f5148be9b"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "version": "V11",
+  "versionNumber": 11,
+  "assetVersion": "v11-f676e398f9b1",
+  "builtAtUtc": "2026-11-07T05:59:05.7391923Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v11/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Release V11: place fan opposite wind direction across all maps",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 25370920,
+      "sha256": "a087119eda113f7d839bc7f07d48687f41606613aa0c9869285ee10723778cef"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "234b53ce1d4b411ab00c9f20aa636a86cd28bab1ffe221d12b5e7694222d02be"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7691676,
+      "sha256": "8df774f9ae3212543c4dc6a8bd006a7384493ac257a2f124a62d7d6f5148be9b"
+    }
+  ]
+}
