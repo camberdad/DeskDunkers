@@ -18,8 +18,10 @@ V7 automatically shuffles Office, Bedroom and Living Room together with Close Sh
 
 V8 resets all leaderboard entries, best scores and playtime. Device usernames are kept. The new leaderboard schema and separate cache prevent earlier releases from restoring pre-reset records.
 
+V9 refreshes the board and leader HUD automatically every five seconds while the game is visible and focused, sends new best scores promptly, and refreshes on returning to the tab. Hidden tabs stop periodic polling. Offline records retry with backoff. The online status reads Live · camberdad.com. V8's reset generation and current player records are preserved.
+
 From V5 onward, every numbered web release is retained under `versions/vN/`. The root remains current for existing website embeds.
 
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V8](versions/v8/). Numbered folders are retained; the root URL remains current.
+Release folder: [V9](versions/v9/). Numbered folders are retained; the root URL remains current.

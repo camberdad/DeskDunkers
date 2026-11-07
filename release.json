@@ -1,16 +1,16 @@
 {
-  "version": "V8",
-  "versionNumber": 8,
-  "assetVersion": "v8-68facdc3ebde",
-  "builtAtUtc": "2026-11-07T03:08:59.0937791Z",
+  "version": "V9",
+  "versionNumber": 9,
+  "assetVersion": "v9-2b0fcbb060a2",
+  "builtAtUtc": "2026-11-07T03:29:42.4160154Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v8/",
-  "description": "Release V8: reset leaderboard scores and playtime with stale cache protection",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v9/",
+  "description": "Release V9: live high-score updates and camberdad.com status branding",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 18158504,
-      "sha256": "02e78adadf26019c30d0b46f06dccc0a355bf18b2bd1cec5e5b4557b42a911ff"
+      "bytes": 18165613,
+      "sha256": "7efba66304f1ccadbee7ca22c091ece3aa3f81e8cbe53cf76d1747984c6ffb5b"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -20,12 +20,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "a34e8fc56921a51394e5b2a18b33e46dfa951f7af72ad720a79bc61199441265"
+      "sha256": "bf4fdda3ae33e6c7bca70fa3e4e0b2188e3d12b048d68b32379b77216d98276b"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7690538,
-      "sha256": "a684ac4669e4e3ed2ff0015a3dd970176360c6b9803813fa3b9dc5883bc31c63"
+      "bytes": 7701506,
+      "sha256": "46ebbb6353bf6d049ddf83f48d525527fc02d10ac234cf74825122bcbeea5d3e"
     }
   ]
 }

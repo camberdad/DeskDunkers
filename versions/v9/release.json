@@ -1,0 +1,31 @@
+{
+  "version": "V9",
+  "versionNumber": 9,
+  "assetVersion": "v9-2b0fcbb060a2",
+  "builtAtUtc": "2026-11-07T03:29:42.4160154Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v9/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Release V9: live high-score updates and camberdad.com status branding",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 18165613,
+      "sha256": "7efba66304f1ccadbee7ca22c091ece3aa3f81e8cbe53cf76d1747984c6ffb5b"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "bf4fdda3ae33e6c7bca70fa3e4e0b2188e3d12b048d68b32379b77216d98276b"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7701506,
+      "sha256": "46ebbb6353bf6d049ddf83f48d525527fc02d10ac234cf74825122bcbeea5d3e"
+    }
+  ]
+}
