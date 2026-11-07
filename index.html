@@ -27,6 +27,12 @@
     .loading-label { color: #91b49b; font-size: 10px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
     .bottomline { display: flex; justify-content: space-between; gap: 12px; color: #e9e3d8a8; font-size: 11px; }
     .bottomline strong { color: #f4bb54; font-weight: 750; }
+    .gameUpdateNotice { position: fixed; z-index: 100; left: 50%; bottom: 20px; transform: translateX(-50%); width: min(460px, calc(100vw - 24px)); padding: 18px 20px; display: grid; gap: 12px; border: 1px solid #f4bb54; border-radius: 12px; background: #182c3af5; color: #faf7ee; box-shadow: 0 8px 35px #0008; font-size: 14px; text-align: center; }
+    .gameUpdateNotice button { justify-self: center; padding: 10px 18px; border: 0; border-radius: 6px; background: #f4bb54; color: #182c3a; font-weight: 800; cursor: pointer; }
+    .updateTrack { height: 6px; border-radius: 6px; overflow: hidden; background: #ffffff26; }
+    .updateFill { height: 100%; width: 35%; background: #f4bb54; animation: updateLoading 1s ease-in-out infinite alternate; }
+    @keyframes updateLoading { to { transform: translateX(185%); } }
+    @media (prefers-reduced-motion: reduce) { .updateFill { animation: none; width: 100%; } }
     @media (max-width: 640px) { body { padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom)); } .stage { width: min(calc(100vw - 16px), calc((100dvh - 105px) * 3 / 4)); max-height: calc(100dvh - 105px); border-radius: 10px; } .topline { align-items: center; } .subtitle { max-width: 68vw; } .status { font-size: 9px; } .bottomline { font-size: 9px; } }
     @media (max-aspect-ratio: 3 / 4) and (max-width: 640px) { .shell { gap: 8px; } .stage { width: 100%; } }
   </style>
@@ -46,31 +52,36 @@
         <div class="loading-label" id="loading-label">Getting the paper ready</div>
       </div>
     </div>
-    <footer class="bottomline"><span>Read the wind. Flick the paper. Keep the streak alive.</span><span><strong>DESK DUNKERS</strong></span></footer>
+    <footer class="bottomline"><span>Read the wind. Flick the paper. Keep the streak alive.</span><span><strong>DESK DUNKERS <span id="game-version"></span></strong></span></footer>
   </main>
-  <script src="Build/WebGL.loader.js?v=toss-9f36765a18bc"></script>
+  <script src="version-check.js?v=v2-e12c9a67ac20"></script>
+  <script src="Build/WebGL.loader.js?v=v2-e12c9a67ac20"></script>
   <script>
     const canvas = document.querySelector("#unity-canvas");
     const loading = document.querySelector("#loading");
     const fill = document.querySelector("#fill");
     const label = document.querySelector("#loading-label");
     const config = {
-      dataUrl: "Build/WebGL.data.unityweb?v=toss-9f36765a18bc",
-      frameworkUrl: "Build/WebGL.framework.js.unityweb?v=toss-9f36765a18bc",
-      codeUrl: "Build/WebGL.wasm.unityweb?v=toss-9f36765a18bc",
+      dataUrl: "Build/WebGL.data.unityweb?v=v2-e12c9a67ac20",
+      frameworkUrl: "Build/WebGL.framework.js.unityweb?v=v2-e12c9a67ac20",
+      codeUrl: "Build/WebGL.wasm.unityweb?v=v2-e12c9a67ac20",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "CamberDad Games",
       productName: "Desk Dunkers",
-      productVersion: "0.1.0",
+      productVersion: "2.0.0",
       matchWebGLToCanvasSize: true,
       devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5)
     };
+    const releaseNumber = Number(config.productVersion.split('.')[0]);
+    document.querySelector('#game-version').textContent = 'V' + releaseNumber;
+    window.DeskDunkersUpdates.start(releaseNumber);
     createUnityInstance(canvas, config, (progress) => {
       fill.style.width = `${Math.round(progress * 100)}%`;
       label.textContent = progress < 0.7 ? "Getting the paper ready" : "Waking up the desk fan";
-    }).then(() => {
+    }).then((game) => {
       label.textContent = "Ready for your shift";
       window.setTimeout(() => loading.classList.add("hidden"), 300);
+      window.DeskDunkersUpdates.loaded(game);
     }).catch((error) => {
       label.textContent = "The game could not load. Please refresh and try again.";
       console.error(error);

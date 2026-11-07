@@ -1,28 +1,30 @@
 {
-  "version": "toss-9f36765a18bc",
-  "builtAtUtc": "2026-11-06T23:57:51.5395856Z",
+  "version": "V2",
+  "versionNumber": 2,
+  "assetVersion": "v2-e12c9a67ac20",
+  "builtAtUtc": "2026-11-07T00:27:16.1263135Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "description": "Fix Paper Toss arcs, wind aiming, basket collisions, and continuous play",
+  "description": "Release V2: accurate solid bin and rim, captured tosses, stronger wind arrow, and safe live updates",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 2854960,
-      "sha256": "8830d68b3808ffbcb77de4995e735af0b45437b5983321153c2e892be312ce00"
+      "bytes": 2826399,
+      "sha256": "fa6d08ccc508fc6d9b33771c3963f1dba23115c7e6091250a1e34bdb5a563f43"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
-      "bytes": 65955,
-      "sha256": "0a1634f13bae05c181197688bb772ac681b4c309f4a9b3cee8a47696153db6a2"
+      "bytes": 66110,
+      "sha256": "d02831e8ebb38a514787ff64986f5b66a78c3b7801115153af66811fd5ba5ece"
     },
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "9334254edd14784bf144511f581103a024feed62d1f0a5b77dbcbe123e1ff1fd"
+      "sha256": "c6da8b29062f0d16a5cf7fd514be29a7afb42f46f6192aa2bc4eaee6ef1efb7c"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7634777,
-      "sha256": "a48a3a45a650537f19cf7962cf9558d6e74d0d1bfe95b2b1eca6427d7b3dfb58"
+      "bytes": 7635073,
+      "sha256": "9c1d91ec050d19855bc2fd1f89515b7ea3febc3ad1a7b28585ae122411bfb4b6"
     }
   ]
 }
