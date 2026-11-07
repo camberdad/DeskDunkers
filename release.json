@@ -1,16 +1,16 @@
 {
-  "version": "V9",
-  "versionNumber": 9,
-  "assetVersion": "v9-2b0fcbb060a2",
-  "builtAtUtc": "2026-11-07T03:29:42.4160154Z",
+  "version": "V10",
+  "versionNumber": 10,
+  "assetVersion": "v10-781f06ebb504",
+  "builtAtUtc": "2026-11-07T05:20:03.7394075Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v9/",
-  "description": "Release V9: live high-score updates and camberdad.com status branding",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v10/",
+  "description": "Release V10: add Dining Room map to the automatic room rotation",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 18165613,
-      "sha256": "7efba66304f1ccadbee7ca22c091ece3aa3f81e8cbe53cf76d1747984c6ffb5b"
+      "bytes": 25371765,
+      "sha256": "4225838a4042574406c46f9ef3e38d7b9fdbec89ba029e1ed57085590367e5a6"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -20,12 +20,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "bf4fdda3ae33e6c7bca70fa3e4e0b2188e3d12b048d68b32379b77216d98276b"
+      "sha256": "e0f1335c0d92c48641870d1b08abf46a85976370e5cc3780a4575600f758c6c9"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7701506,
-      "sha256": "46ebbb6353bf6d049ddf83f48d525527fc02d10ac234cf74825122bcbeea5d3e"
+      "bytes": 7697482,
+      "sha256": "ca8634db6eb5384a1259851b4cd75e802a8b0c5590dff52821db73d0dceb2bef"
     }
   ]
 }

@@ -22,6 +22,8 @@ V9 refreshes the board and leader HUD automatically every five seconds while the
 
 From V5 onward, every numbered web release is retained under `versions/vN/`. The root remains current for existing website embeds.
 
+V10 adds the supplied Dining Room OBJ to the automatic room rotation. Each four-toss room cycle now includes Office, Bedroom, Living Room and Dining Room; distances keep their independent three-toss cycle. The model uses palette-styled materials and reduced geometry with a clear central throwing lane. Existing scores, playtime and live updates carry forward.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V9](versions/v9/). Numbered folders are retained; the root URL remains current.
+Release folder: [V10](versions/v10/). Numbered folders are retained; the root URL remains current.

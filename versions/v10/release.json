@@ -1,0 +1,31 @@
+{
+  "version": "V10",
+  "versionNumber": 10,
+  "assetVersion": "v10-781f06ebb504",
+  "builtAtUtc": "2026-11-07T05:20:03.7394075Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v10/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Release V10: add Dining Room map to the automatic room rotation",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 25371765,
+      "sha256": "4225838a4042574406c46f9ef3e38d7b9fdbec89ba029e1ed57085590367e5a6"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "e0f1335c0d92c48641870d1b08abf46a85976370e5cc3780a4575600f758c6c9"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7697482,
+      "sha256": "ca8634db6eb5384a1259851b4cd75e802a8b0c5590dff52821db73d0dceb2bef"
+    }
+  ]
+}
