@@ -1,0 +1,31 @@
+{
+  "version": "V8",
+  "versionNumber": 8,
+  "assetVersion": "v8-68facdc3ebde",
+  "builtAtUtc": "2026-11-07T03:08:59.0937791Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v8/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Release V8: reset leaderboard scores and playtime with stale cache protection",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 18158504,
+      "sha256": "02e78adadf26019c30d0b46f06dccc0a355bf18b2bd1cec5e5b4557b42a911ff"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "a34e8fc56921a51394e5b2a18b33e46dfa951f7af72ad720a79bc61199441265"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7690538,
+      "sha256": "a684ac4669e4e3ed2ff0015a3dd970176360c6b9803813fa3b9dc5883bc31c63"
+    }
+  ]
+}

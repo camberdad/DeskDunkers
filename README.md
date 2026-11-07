@@ -16,8 +16,10 @@ V5 adds named profiles, a home menu, Settings, How to Play and a shared JSONBin 
 
 V7 automatically shuffles Office, Bedroom and Living Room together with Close Shot, Mid Range and Long Haul for every new paper ball. Each three-toss cycle includes all three rooms and all three distances, without consecutive repeats. The top display shows the current setup; manual selectors are removed. Wind applies twice V6's sideways acceleration per MPH, with the same 1.0–4.7 mph range. Successful streaks and shared high scores carry across setups.
 
+V8 resets all leaderboard entries, best scores and playtime. Device usernames are kept. The new leaderboard schema and separate cache prevent earlier releases from restoring pre-reset records.
+
 From V5 onward, every numbered web release is retained under `versions/vN/`. The root remains current for existing website embeds.
 
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V7](versions/v7/). Numbered folders are retained; the root URL remains current.
+Release folder: [V8](versions/v8/). Numbered folders are retained; the root URL remains current.

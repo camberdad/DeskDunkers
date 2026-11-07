@@ -1,16 +1,16 @@
 {
-  "version": "V7",
-  "versionNumber": 7,
-  "assetVersion": "v7-94646344807b",
-  "builtAtUtc": "2026-11-07T02:53:12.4153731Z",
+  "version": "V8",
+  "versionNumber": 8,
+  "assetVersion": "v8-68facdc3ebde",
+  "builtAtUtc": "2026-11-07T03:08:59.0937791Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v7/",
-  "description": "Release V7: stronger wind per MPH and automatic shuffled rooms and distances",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v8/",
+  "description": "Release V8: reset leaderboard scores and playtime with stale cache protection",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 18160506,
-      "sha256": "8c257429e7a2c8e686c58c03bb64a5874802d5eb00534dd74bbbc6c6c3bd9a28"
+      "bytes": 18158504,
+      "sha256": "02e78adadf26019c30d0b46f06dccc0a355bf18b2bd1cec5e5b4557b42a911ff"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -20,12 +20,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "b79f5d78d0391b2ed20f43dc1c7ddf4660402408a7b07035d56a2cd92b319282"
+      "sha256": "a34e8fc56921a51394e5b2a18b33e46dfa951f7af72ad720a79bc61199441265"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7690597,
-      "sha256": "cf39e1f4dc6fd0ee70ff0e150004b4177089f7c7b5b6c71ee58adcd5baf86b09"
+      "bytes": 7690538,
+      "sha256": "a684ac4669e4e3ed2ff0015a3dd970176360c6b9803813fa3b9dc5883bc31c63"
     }
   ]
 }
