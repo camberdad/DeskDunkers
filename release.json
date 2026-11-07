@@ -1,15 +1,15 @@
 {
-  "version": "V3",
-  "versionNumber": 3,
-  "assetVersion": "v3-6c986369d1b0",
-  "builtAtUtc": "2026-11-07T00:58:23.0630740Z",
+  "version": "V4",
+  "versionNumber": 4,
+  "assetVersion": "v4-721e29378279",
+  "builtAtUtc": "2026-11-07T01:12:37.5509279Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "description": "Release V3: supplied ventilator fan and detailed office assets",
+  "description": "Release V4: reverse fan direction and slightly stronger maximum wind",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 10580720,
-      "sha256": "6fbfebfd8f6a75e241a92350bcfcc609c30e35d0ad5717e46c84283eb3ae66e3"
+      "bytes": 10581349,
+      "sha256": "b0d33fca0b44eb66a1e5c17f973c5cb4c3b03291fac016e6969e0ac31b6e7913"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -23,8 +23,8 @@
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7639522,
-      "sha256": "9c13d74dde834e7c92dbe415835b3570ee0a825a4115472701218c76ba529a6b"
+      "bytes": 7640100,
+      "sha256": "f12e7bda76dc80f60968fec582250068dfc27bef615cdd6a3988b643b8d4571d"
     }
   ]
 }
