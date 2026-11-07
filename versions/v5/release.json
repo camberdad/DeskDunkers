@@ -1,0 +1,31 @@
+{
+  "version": "V5",
+  "versionNumber": 5,
+  "assetVersion": "v5-6f47bc5c1953",
+  "builtAtUtc": "2026-11-07T01:47:44.3966246Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v5/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Release V5: named profiles, home menu, shared best scores and playtime, and retained version folders",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 10589036,
+      "sha256": "cd47ad5e6a02906b6b249139b74b62fedfc6b4c812de4f83a277dfd55cc9e1ed"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "82f0b90081c335b44e7f1e4476a3285e2338b0049b56f386924d1e443c5891e2"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7687741,
+      "sha256": "08aee28a037c0bee7914f134b1cec26509502251f1eec5e8f791e5e458515fbe"
+    }
+  ]
+}

@@ -1,30 +1,31 @@
 {
-  "version": "V4",
-  "versionNumber": 4,
-  "assetVersion": "v4-721e29378279",
-  "builtAtUtc": "2026-11-07T01:12:37.5509279Z",
+  "version": "V5",
+  "versionNumber": 5,
+  "assetVersion": "v5-6f47bc5c1953",
+  "builtAtUtc": "2026-11-07T01:47:44.3966246Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "description": "Release V4: reverse fan direction and slightly stronger maximum wind",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v5/",
+  "description": "Release V5: named profiles, home menu, shared best scores and playtime, and retained version folders",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 10581349,
-      "sha256": "b0d33fca0b44eb66a1e5c17f973c5cb4c3b03291fac016e6969e0ac31b6e7913"
+      "bytes": 10589036,
+      "sha256": "cd47ad5e6a02906b6b249139b74b62fedfc6b4c812de4f83a277dfd55cc9e1ed"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
-      "bytes": 66110,
-      "sha256": "d02831e8ebb38a514787ff64986f5b66a78c3b7801115153af66811fd5ba5ece"
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
     },
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "fcbf8512e0599178bb30797f6ca2dd1902dba8bd5be84c46973ab06d306a1ba1"
+      "sha256": "82f0b90081c335b44e7f1e4476a3285e2338b0049b56f386924d1e443c5891e2"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7640100,
-      "sha256": "f12e7bda76dc80f60968fec582250068dfc27bef615cdd6a3988b643b8d4571d"
+      "bytes": 7687741,
+      "sha256": "08aee28a037c0bee7914f134b1cec26509502251f1eec5e8f791e5e458515fbe"
     }
   ]
 }

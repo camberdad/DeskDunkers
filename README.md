@@ -12,4 +12,10 @@ Each game update replaces `index.html` and the complete `Build/` bundle together
 
 Numbered releases (V2, V3, and later) appear in the game and its footer. The player checks `version.json` every 30 seconds and when returning to the browser. A newer version prompts active players to return home; on the home screen it shows updating progress, reloads the fresh release, and confirms completion after the new player has loaded. It does not interrupt a live shot.
 
+V5 adds named profiles, a home menu, Settings, How to Play and a shared JSONBin High Scores screen with best streak and active playtime. During play, Your Best appears beside #1 Best. Scores cache locally while offline. The dedicated Desk Dunkers bin is separate from the other games; no account master credential is included in this release.
+
+From V5 onward, every numbered web release is retained under `versions/vN/`. The root remains current for existing website embeds.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
+
+Release folder: [V5](versions/v5/). Numbered folders are retained; the root URL remains current.
