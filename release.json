@@ -1,16 +1,16 @@
 {
-  "version": "V6",
-  "versionNumber": 6,
-  "assetVersion": "v6-1726aaf5ccc3",
-  "builtAtUtc": "2026-11-07T02:26:15.3171377Z",
+  "version": "V7",
+  "versionNumber": 7,
+  "assetVersion": "v7-94646344807b",
+  "builtAtUtc": "2026-11-07T02:53:12.4153731Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v6/",
-  "description": "Release V6: selectable Office, Bedroom and Living Room maps on Home",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v7/",
+  "description": "Release V7: stronger wind per MPH and automatic shuffled rooms and distances",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 18161390,
-      "sha256": "9942e81f49b0d60800e897ccf6b89c4f54c8152b74601ff1577144ff4762f6a0"
+      "bytes": 18160506,
+      "sha256": "8c257429e7a2c8e686c58c03bb64a5874802d5eb00534dd74bbbc6c6c3bd9a28"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -20,12 +20,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "519e837f0b0b6f49232463263a6ff580f56d743ddb4806acfb14cccd997a3f02"
+      "sha256": "b79f5d78d0391b2ed20f43dc1c7ddf4660402408a7b07035d56a2cd92b319282"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7692036,
-      "sha256": "079a33b7dcfdfcafd9efa1705e48c5a66353cb0d860bb500d2224a8af94a7510"
+      "bytes": 7690597,
+      "sha256": "cf39e1f4dc6fd0ee70ff0e150004b4177089f7c7b5b6c71ee58adcd5baf86b09"
     }
   ]
 }

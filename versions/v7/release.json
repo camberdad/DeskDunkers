@@ -1,0 +1,31 @@
+{
+  "version": "V7",
+  "versionNumber": 7,
+  "assetVersion": "v7-94646344807b",
+  "builtAtUtc": "2026-11-07T02:53:12.4153731Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v7/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Release V7: stronger wind per MPH and automatic shuffled rooms and distances",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 18160506,
+      "sha256": "8c257429e7a2c8e686c58c03bb64a5874802d5eb00534dd74bbbc6c6c3bd9a28"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "b79f5d78d0391b2ed20f43dc1c7ddf4660402408a7b07035d56a2cd92b319282"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7690597,
+      "sha256": "cf39e1f4dc6fd0ee70ff0e150004b4177089f7c7b5b6c71ee58adcd5baf86b09"
+    }
+  ]
+}

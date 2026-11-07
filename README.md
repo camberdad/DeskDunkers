@@ -14,10 +14,10 @@ Numbered releases (V2, V3, and later) appear in the game and its footer. The pla
 
 V5 adds named profiles, a home menu, Settings, How to Play and a shared JSONBin High Scores screen with best streak and active playtime. During play, Your Best appears beside #1 Best. Scores cache locally while offline. The dedicated Desk Dunkers bin is separate from the other games; no account master credential is included in this release.
 
-V6 adds a Maps selection on Home: Office, Bedroom and Living Room. The chosen room is remembered on the device. All rooms retain the same tossing controls, distances, wind and shared high scores.
+V7 automatically shuffles Office, Bedroom and Living Room together with Close Shot, Mid Range and Long Haul for every new paper ball. Each three-toss cycle includes all three rooms and all three distances, without consecutive repeats. The top display shows the current setup; manual selectors are removed. Wind applies twice V6's sideways acceleration per MPH, with the same 1.0–4.7 mph range. Successful streaks and shared high scores carry across setups.
 
 From V5 onward, every numbered web release is retained under `versions/vN/`. The root remains current for existing website embeds.
 
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V6](versions/v6/). Numbered folders are retained; the root URL remains current.
+Release folder: [V7](versions/v7/). Numbered folders are retained; the root URL remains current.
