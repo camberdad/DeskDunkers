@@ -1,16 +1,16 @@
 {
-  "version": "V5",
-  "versionNumber": 5,
-  "assetVersion": "v5-6f47bc5c1953",
-  "builtAtUtc": "2026-11-07T01:47:44.3966246Z",
+  "version": "V6",
+  "versionNumber": 6,
+  "assetVersion": "v6-1726aaf5ccc3",
+  "builtAtUtc": "2026-11-07T02:26:15.3171377Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v5/",
-  "description": "Release V5: named profiles, home menu, shared best scores and playtime, and retained version folders",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v6/",
+  "description": "Release V6: selectable Office, Bedroom and Living Room maps on Home",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 10589036,
-      "sha256": "cd47ad5e6a02906b6b249139b74b62fedfc6b4c812de4f83a277dfd55cc9e1ed"
+      "bytes": 18161390,
+      "sha256": "9942e81f49b0d60800e897ccf6b89c4f54c8152b74601ff1577144ff4762f6a0"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -20,12 +20,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "82f0b90081c335b44e7f1e4476a3285e2338b0049b56f386924d1e443c5891e2"
+      "sha256": "519e837f0b0b6f49232463263a6ff580f56d743ddb4806acfb14cccd997a3f02"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7687741,
-      "sha256": "08aee28a037c0bee7914f134b1cec26509502251f1eec5e8f791e5e458515fbe"
+      "bytes": 7692036,
+      "sha256": "079a33b7dcfdfcafd9efa1705e48c5a66353cb0d860bb500d2224a8af94a7510"
     }
   ]
 }

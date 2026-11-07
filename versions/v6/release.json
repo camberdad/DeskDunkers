@@ -1,0 +1,31 @@
+{
+  "version": "V6",
+  "versionNumber": 6,
+  "assetVersion": "v6-1726aaf5ccc3",
+  "builtAtUtc": "2026-11-07T02:26:15.3171377Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v6/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "Release V6: selectable Office, Bedroom and Living Room maps on Home",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 18161390,
+      "sha256": "9942e81f49b0d60800e897ccf6b89c4f54c8152b74601ff1577144ff4762f6a0"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "519e837f0b0b6f49232463263a6ff580f56d743ddb4806acfb14cccd997a3f02"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7692036,
+      "sha256": "079a33b7dcfdfcafd9efa1705e48c5a66353cb0d860bb500d2224a8af94a7510"
+    }
+  ]
+}
