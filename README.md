@@ -26,6 +26,8 @@ V10 adds the supplied Dining Room OBJ to the automatic room rotation. Each four-
 
 V11 places the fan opposite the displayed wind direction across all maps: RIGHT wind comes from the LEFT fan; LEFT wind comes from the RIGHT fan. The original left fan position is preserved. Nearby laptop/books switch to the free side to avoid overlap and restore their original positions when the fan is left. Fan facing, animation, wind strength and scoring are preserved.
 
+V12 uses the supplied Metal063 texture on desks and tables, including the fan desk and dining table, and WoodFloor051 planks on all four room floors. Surface UVs use consistent world scale with normal and roughness detail. Rugs, upholstery and existing gameplay retain their behavior.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V11](versions/v11/). Numbered folders are retained; the root URL remains current.
+Release folder: [V12](versions/v12/). Numbered folders are retained; the root URL remains current.

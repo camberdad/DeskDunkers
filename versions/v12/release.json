@@ -1,0 +1,31 @@
+{
+  "version": "V12",
+  "versionNumber": 12,
+  "assetVersion": "v12-67fcdbc94d23",
+  "builtAtUtc": "2026-11-07T07:00:10.1441791Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v12/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "V12: apply supplied metal to desks and tables and wood planks to all room floors",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 32452294,
+      "sha256": "0e9bb539ce0ec04844059282269e5c26c1685e593245840cd15b521c3e17e9b6"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "d4d086901568a094a626d95712161ffee54fe43734339f4cfea045892ff537f2"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7688380,
+      "sha256": "bc6a228dc688113a27222b8d65b191ce8b9125edcc36f0b323dc4b1b5807ce37"
+    }
+  ]
+}
