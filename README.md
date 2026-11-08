@@ -30,6 +30,8 @@ V12 uses the supplied Metal063 texture on desks and tables, including the fan de
 
 V13 uses the supplied Carpet016 cream woven material on the Living Room/Dining Room rugs and Bark016 on plant surfaces across all four maps. Pots, book covers, upholstery, metal desks and wood floors retain their finishes. Gameplay and player records are preserved.
 
+V14 displays the supplied DeskDunkersHomeScreen2 image on laptop, Office monitor, curved Bedroom monitor and Living Room TV glass. The full image is upright and aspect-fitted with dark side bars, preserving original frames/keyboards and gameplay.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V13](versions/v13/). Numbered folders are retained; the root URL remains current.
+Release folder: [V14](versions/v14/). Numbered folders are retained; the root URL remains current.
