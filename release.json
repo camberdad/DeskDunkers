@@ -1,16 +1,16 @@
 {
-  "version": "V12",
-  "versionNumber": 12,
-  "assetVersion": "v12-67fcdbc94d23",
-  "builtAtUtc": "2026-11-07T07:00:10.1441791Z",
+  "version": "V13",
+  "versionNumber": 13,
+  "assetVersion": "v13-170099cb2edd",
+  "builtAtUtc": "2026-11-08T02:46:12.7722681Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v12/",
-  "description": "V12: apply supplied metal to desks and tables and wood planks to all room floors",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v13/",
+  "description": "V13: apply supplied woven carpet to rugs and bark texture to plants",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 32452294,
-      "sha256": "0e9bb539ce0ec04844059282269e5c26c1685e593245840cd15b521c3e17e9b6"
+      "bytes": 37312374,
+      "sha256": "5e19d84d51ad9098048864129e007335475bdf6b1f254120126700be1206e512"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",

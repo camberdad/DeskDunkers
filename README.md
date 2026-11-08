@@ -28,6 +28,8 @@ V11 places the fan opposite the displayed wind direction across all maps: RIGHT 
 
 V12 uses the supplied Metal063 texture on desks and tables, including the fan desk and dining table, and WoodFloor051 planks on all four room floors. Surface UVs use consistent world scale with normal and roughness detail. Rugs, upholstery and existing gameplay retain their behavior.
 
+V13 uses the supplied Carpet016 cream woven material on the Living Room/Dining Room rugs and Bark016 on plant surfaces across all four maps. Pots, book covers, upholstery, metal desks and wood floors retain their finishes. Gameplay and player records are preserved.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V12](versions/v12/). Numbered folders are retained; the root URL remains current.
+Release folder: [V13](versions/v13/). Numbered folders are retained; the root URL remains current.
