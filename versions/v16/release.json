@@ -1,0 +1,31 @@
+{
+  "version": "V16",
+  "versionNumber": 16,
+  "assetVersion": "v16-2a215900aa45",
+  "builtAtUtc": "2026-11-13T03:06:23.0166670Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v16/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "V16: furnish all rooms with lived-in workspaces books plants lamps and everyday clutter",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 40281829,
+      "sha256": "757b196ae1094c6200eb9f47758d19528fded44fe48f736a4dbae00ca35627ae"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "6e43934cc5619f79f5f930bdc3762ef7feebef884910a01b47d49ba6ff71f240"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7696106,
+      "sha256": "c058d6063a5ceb910c4a5746edb252034e089aec7b72ca5776f55d33ce4ba103"
+    }
+  ]
+}

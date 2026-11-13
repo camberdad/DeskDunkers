@@ -1,16 +1,16 @@
 {
-  "version": "V15",
-  "versionNumber": 15,
-  "assetVersion": "v15-40236a20775f",
-  "builtAtUtc": "2026-11-13T02:28:00.1166857Z",
+  "version": "V16",
+  "versionNumber": 16,
+  "assetVersion": "v16-2a215900aa45",
+  "builtAtUtc": "2026-11-13T03:06:23.0166670Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v15/",
-  "description": "V15: remodel home rooms with Appliances and Furniture Mega Pack across twelve shooting zones",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v16/",
+  "description": "V16: furnish all rooms with lived-in workspaces books plants lamps and everyday clutter",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 38758512,
-      "sha256": "baf58b6ea7f3bb1ccdc7ffd37e4127f847b643eb3d0498534dc894ac72a35aba"
+      "bytes": 40281829,
+      "sha256": "757b196ae1094c6200eb9f47758d19528fded44fe48f736a4dbae00ca35627ae"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",

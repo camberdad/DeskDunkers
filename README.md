@@ -34,6 +34,8 @@ V14 displays the supplied DeskDunkersHomeScreen2 image on laptop, Office monitor
 
 V15 remodels the four home rooms with Furniture Mega Pack and Appliances. Each room has three physically distinct shooting zones: twelve automatic views with alternate desks, seating and focal areas, using four cached room interiors. The camera, paper, bin and fan move together; directional wind, scores and live updates carry forward.
 
+V16 fills the twelve zones with occupied workstations, stocked shelves, books, plants, lamps, coffee mugs, document folders, cushions, table settings, curtains/blinds, clocks and pinned notes. Smaller decorative geometry is shared/combined, and the throwing lane remains clear.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V15](versions/v15/). Numbered folders are retained; the root URL remains current.
+Release folder: [V16](versions/v16/). Numbered folders are retained; the root URL remains current.
