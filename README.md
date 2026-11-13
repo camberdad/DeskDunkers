@@ -32,6 +32,8 @@ V13 uses the supplied Carpet016 cream woven material on the Living Room/Dining R
 
 V14 displays the supplied DeskDunkersHomeScreen2 image on laptop, Office monitor, curved Bedroom monitor and Living Room TV glass. The full image is upright and aspect-fitted with dark side bars, preserving original frames/keyboards and gameplay.
 
+V15 remodels the four home rooms with Furniture Mega Pack and Appliances. Each room has three physically distinct shooting zones: twelve automatic views with alternate desks, seating and focal areas, using four cached room interiors. The camera, paper, bin and fan move together; directional wind, scores and live updates carry forward.
+
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V14](versions/v14/). Numbered folders are retained; the root URL remains current.
+Release folder: [V15](versions/v15/). Numbered folders are retained; the root URL remains current.
