@@ -1,16 +1,16 @@
 {
-  "version": "V16",
-  "versionNumber": 16,
-  "assetVersion": "v16-2a215900aa45",
-  "builtAtUtc": "2026-11-13T03:06:23.0166670Z",
+  "version": "V17",
+  "versionNumber": 17,
+  "assetVersion": "v17-43c43135e96b",
+  "builtAtUtc": "2026-11-13T04:14:57.3743529Z",
   "gameUrl": "https://camberdad.github.io/DeskDunkers/",
-  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v16/",
-  "description": "V16: furnish all rooms with lived-in workspaces books plants lamps and everyday clutter",
+  "versionUrl": "https://camberdad.github.io/DeskDunkers/versions/v17/",
+  "description": "V17: tactile PBR paper and brushed bin, natural lighting and soft shadows, subtle lens effects, drag, dust, impact recoil and recorded foley",
   "files": [
     {
       "path": "Build/WebGL.data.unityweb",
-      "bytes": 40281829,
-      "sha256": "757b196ae1094c6200eb9f47758d19528fded44fe48f736a4dbae00ca35627ae"
+      "bytes": 58687398,
+      "sha256": "5fc3ff6130fd52287146ec7098790227d3387fdf2c0b55f393c90641aa9b0004"
     },
     {
       "path": "Build/WebGL.framework.js.unityweb",
@@ -20,12 +20,12 @@
     {
       "path": "Build/WebGL.loader.js",
       "bytes": 118806,
-      "sha256": "6e43934cc5619f79f5f930bdc3762ef7feebef884910a01b47d49ba6ff71f240"
+      "sha256": "1bec2aa863b7e96552af32d8c2356a70c5a4c353dfeebe6e1ff3776fb10d37f9"
     },
     {
       "path": "Build/WebGL.wasm.unityweb",
-      "bytes": 7696106,
-      "sha256": "c058d6063a5ceb910c4a5746edb252034e089aec7b72ca5776f55d33ce4ba103"
+      "bytes": 7681038,
+      "sha256": "7183e52576904fa162c8b714073d0b4b802a7dcd47cf32c053949779235b9e56"
     }
   ]
 }

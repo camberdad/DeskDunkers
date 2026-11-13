@@ -36,6 +36,9 @@ V15 remodels the four home rooms with Furniture Mega Pack and Appliances. Each r
 
 V16 fills the twelve zones with occupied workstations, stocked shelves, books, plants, lamps, coffee mugs, document folders, cushions, table settings, curtains/blinds, clocks and pinned notes. Smaller decorative geometry is shared/combined, and the throwing lane remains clear.
 
+
+## V17 PBR realism
+V17 replaces faceted paper and flat prop finishes with creased-paper, brushed-metal and textured room materials; adds soft contact shadows, window lighting, subtle Bokeh/vignette, dust and flight trails; and adds drag-adjusted arcs plus recorded foley and bin recoil. The 3D depth buffer handles paper entering the bin. Existing scores, twelve zones, browser URL and home-confirmed update flow remain intact.
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V16](versions/v16/). Numbered folders are retained; the root URL remains current.
+Release folder: [V17](versions/v17/). Numbered folders are retained; the root URL remains current.

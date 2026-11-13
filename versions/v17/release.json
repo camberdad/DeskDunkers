@@ -1,0 +1,31 @@
+{
+  "version": "V17",
+  "versionNumber": 17,
+  "assetVersion": "v17-43c43135e96b",
+  "builtAtUtc": "2026-11-13T04:14:57.3743529Z",
+  "gameUrl": "https://camberdad.github.io/DeskDunkers/versions/v17/",
+  "currentGameUrl": "https://camberdad.github.io/DeskDunkers/",
+  "description": "V17: tactile PBR paper and brushed bin, natural lighting and soft shadows, subtle lens effects, drag, dust, impact recoil and recorded foley",
+  "files": [
+    {
+      "path": "Build/WebGL.data.unityweb",
+      "bytes": 58687398,
+      "sha256": "5fc3ff6130fd52287146ec7098790227d3387fdf2c0b55f393c90641aa9b0004"
+    },
+    {
+      "path": "Build/WebGL.framework.js.unityweb",
+      "bytes": 67283,
+      "sha256": "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+    },
+    {
+      "path": "Build/WebGL.loader.js",
+      "bytes": 118806,
+      "sha256": "1bec2aa863b7e96552af32d8c2356a70c5a4c353dfeebe6e1ff3776fb10d37f9"
+    },
+    {
+      "path": "Build/WebGL.wasm.unityweb",
+      "bytes": 7681038,
+      "sha256": "7183e52576904fa162c8b714073d0b4b802a7dcd47cf32c053949779235b9e56"
+    }
+  ]
+}
