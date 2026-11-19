@@ -1,31 +1,31 @@
 {
-    "version":  "V18",
-    "versionNumber":  18,
-    "assetVersion":  "v18-2e5bdf543d23",
-    "builtAtUtc":  "2026-11-19T00:55:28.9039053Z",
+    "version":  "V19",
+    "versionNumber":  19,
+    "assetVersion":  "v19-5528ad15a0ab",
+    "builtAtUtc":  "2026-11-19T05:09:35.3089012Z",
     "gameUrl":  "https://camberdad.github.io/DeskDunkers/",
-    "versionUrl":  "https://camberdad.github.io/DeskDunkers/versions/v18/",
-    "description":  "V18: High Scores move from JSONBin to Google Firebase Firestore (shared TankShot database)",
+    "versionUrl":  "https://camberdad.github.io/DeskDunkers/versions/v19/",
+    "description":  "V19: Mobile play - full-screen phone/tablet layout, swipe tutorial for first-time mobile players, sturdier touch input; desktop unchanged",
     "files":  [
                   {
                       "path":  "Build/WebGL.data.unityweb",
-                      "bytes":  58679722,
-                      "sha256":  "a81271ce4c2402384eee7b89d9629a5f6423f1f2b57a5f80dbb0cd48c66a8656"
+                      "bytes":  58683053,
+                      "sha256":  "b42fc0e33b976936f590c835260487aac388033e8dace1c964103e112279feb7"
                   },
                   {
                       "path":  "Build/WebGL.framework.js.unityweb",
-                      "bytes":  67283,
-                      "sha256":  "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+                      "bytes":  67444,
+                      "sha256":  "82bf56a043cf9780627a76e8641d67dfe7d346769a286304dc8906d828402cab"
                   },
                   {
                       "path":  "Build/WebGL.loader.js",
                       "bytes":  118806,
-                      "sha256":  "d56eb16f8210a499be8fb3ca63f400e21202b3ac64a695d1e8c9b3c87da53a42"
+                      "sha256":  "7d542d45d70beaf14cc79683d870805bc401b4ca7352f98b2efac4236cc92c92"
                   },
                   {
                       "path":  "Build/WebGL.wasm.unityweb",
-                      "bytes":  7689554,
-                      "sha256":  "7440dfd38f78d3449d12d93b94b3e41a8fd2e3db2f48198245f2b38d16784f0c"
+                      "bytes":  7692744,
+                      "sha256":  "a44e73ff50a73c5ca8de4ad8d40a85a23b3e7bcf4621493838e69bfc865ab97a"
                   }
               ]
 }

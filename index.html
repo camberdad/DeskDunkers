@@ -3,9 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="theme-color" content="#182c3a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Desk Dunkers | CamberDad Games</title>
+  <script>
+    // Decide mobile vs desktop before the page paints. Desktop browsers never get the
+    // is-mobile class, so they keep the original framed 3:4 layout exactly.
+    // ?mobile=1 previews the phone layout on a desktop browser.
+    (function () {
+      var ua = navigator.userAgent || '';
+      var mobile = /[?&]mobile=1(&|$)/.test(location.search) ||
+        /Android|iPhone|iPad|iPod|Mobile|Silk|Kindle|Opera Mini|IEMobile/i.test(ua) ||
+        (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+      window.DeskDunkersIsMobile = mobile;
+      if (mobile) document.documentElement.classList.add('is-mobile');
+    })();
+  </script>
   <style>
     :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     * { box-sizing: border-box; }
@@ -17,7 +33,7 @@
     .subtitle { margin-top: 5px; color: #e9e3d8; font-size: clamp(13px, 2vw, 16px); opacity: .84; }
     .status { color: #f4bb54; font-size: 11px; font-weight: 800; letter-spacing: .14em; text-align: right; text-transform: uppercase; }
     .stage { position: relative; width: min(100%, calc((100dvh - 116px) * 3 / 4)); aspect-ratio: 3 / 4; max-height: calc(100dvh - 116px); margin-inline: auto; overflow: hidden; border: 1px solid #ffffff22; border-radius: 16px; background: #202f37; box-shadow: 0 24px 80px #07121999, 0 2px 0 #ffffff12 inset; }
-    #unity-canvas { display: block; width: 100%; height: 100%; background: #182c3a; touch-action: none; }
+    #unity-canvas { display: block; width: 100%; height: 100%; background: #182c3a; touch-action: none; user-select: none; -webkit-user-select: none; overflow: hidden; outline: none; }
     .loading { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 14px; background: radial-gradient(ellipse at 50% 42%, #31505b, #182c3a 70%); transition: opacity .35s ease; }
     .loading.hidden { opacity: 0; pointer-events: none; }
     .monogram { display: grid; place-items: center; width: 76px; height: 76px; border: 2px solid #f4bb54; border-radius: 22px; color: #f4bb54; font-size: 28px; font-weight: 900; transform: rotate(-7deg); box-shadow: 0 10px 40px #0005; }
@@ -35,6 +51,27 @@
     @media (prefers-reduced-motion: reduce) { .updateFill { animation: none; width: 100%; } }
     @media (max-width: 640px) { body { padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom)); } .stage { width: min(calc(100vw - 16px), calc((100dvh - 105px) * 3 / 4)); max-height: calc(100dvh - 105px); border-radius: 10px; } .topline { align-items: center; } .subtitle { max-width: 68vw; } .status { font-size: 9px; } .bottomline { font-size: 9px; } }
     @media (max-aspect-ratio: 3 / 4) and (max-width: 640px) { .shell { gap: 8px; } .stage { width: 100%; } }
+
+    /* ---- Phones and tablets only: the game fills the whole screen in portrait and landscape. ---- */
+    html.is-mobile, html.is-mobile body {
+      position: fixed; inset: 0; width: 100%; height: var(--app-height, 100dvh);
+      overflow: hidden; overscroll-behavior: none;
+      touch-action: none; user-select: none; -webkit-user-select: none;
+      -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%;
+    }
+    html.is-mobile body { display: block; padding: 0; }
+    /* Unity's on-screen keyboard uses a hidden input; iOS must still allow typing into it. */
+    html.is-mobile input, html.is-mobile textarea { -webkit-user-select: text; user-select: text; touch-action: manipulation; }
+    html.is-mobile .shell {
+      width: 100%; height: 100%; display: block;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
+    html.is-mobile .topline, html.is-mobile .bottomline { display: none; }
+    html.is-mobile .stage {
+      width: 100%; height: 100%; max-height: none; aspect-ratio: auto;
+      border: 0; border-radius: 0; box-shadow: none; background: #182c3a;
+    }
+    html.is-mobile .gameUpdateNotice { bottom: max(16px, env(safe-area-inset-bottom)); touch-action: manipulation; }
   </style>
 </head>
 <body>
@@ -54,21 +91,47 @@
     </div>
     <footer class="bottomline"><span>Read the wind. Flick the paper. Keep the streak alive.</span><span><strong>DESK DUNKERS <span id="game-version"></span></strong></span></footer>
   </main>
-  <script src="version-check.js?v=v18-2e5bdf543d23"></script>
-  <script src="Build/WebGL.loader.js?v=v18-2e5bdf543d23"></script>
+  <script src="version-check.js?v=v19-5528ad15a0ab"></script>
+  <script src="Build/WebGL.loader.js?v=v19-5528ad15a0ab"></script>
   <script>
     const canvas = document.querySelector("#unity-canvas");
     const loading = document.querySelector("#loading");
     const fill = document.querySelector("#fill");
     const label = document.querySelector("#loading-label");
+    const isMobile = window.DeskDunkersIsMobile === true;
+
+    if (isMobile) {
+      // Track the real visible height (mobile URL bars and keyboards change it) and resize in step
+      // with rotation. Unity's matchWebGLToCanvasSize then follows the canvas every frame.
+      const root = document.documentElement;
+      let queued = false;
+      const fit = () => {
+        queued = false;
+        const height = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+        root.style.setProperty('--app-height', Math.round(height) + 'px');
+        window.scrollTo(0, 0);
+      };
+      const queueFit = () => { if (!queued) { queued = true; requestAnimationFrame(fit); } };
+      fit();
+      window.addEventListener('resize', queueFit);
+      window.addEventListener('orientationchange', () => { queueFit(); setTimeout(queueFit, 250); });
+      if (window.visualViewport) window.visualViewport.addEventListener('resize', queueFit);
+      // Never let a swipe scroll, bounce or pinch-zoom the page (the update notice button still taps).
+      const block = (event) => { if (!event.target.closest || !event.target.closest('.gameUpdateNotice')) event.preventDefault(); };
+      document.addEventListener('touchmove', block, { passive: false });
+      document.addEventListener('gesturestart', (event) => event.preventDefault());
+      document.addEventListener('dblclick', (event) => event.preventDefault());
+      canvas.addEventListener('contextmenu', (event) => event.preventDefault());
+    }
+
     const config = {
-      dataUrl: "Build/WebGL.data.unityweb?v=v18-2e5bdf543d23",
-      frameworkUrl: "Build/WebGL.framework.js.unityweb?v=v18-2e5bdf543d23",
-      codeUrl: "Build/WebGL.wasm.unityweb?v=v18-2e5bdf543d23",
+      dataUrl: "Build/WebGL.data.unityweb?v=v19-5528ad15a0ab",
+      frameworkUrl: "Build/WebGL.framework.js.unityweb?v=v19-5528ad15a0ab",
+      codeUrl: "Build/WebGL.wasm.unityweb?v=v19-5528ad15a0ab",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "CamberDad Games",
       productName: "Desk Dunkers",
-      productVersion: "18.0.0",
+      productVersion: "19.0.0",
       matchWebGLToCanvasSize: true,
       devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5)
     };

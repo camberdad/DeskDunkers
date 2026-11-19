@@ -40,8 +40,11 @@ V16 fills the twelve zones with occupied workstations, stocked shelves, books, p
 ## V17 PBR realism
 V17 replaces faceted paper and flat prop finishes with creased-paper, brushed-metal and textured room materials; adds soft contact shadows, window lighting, subtle Bokeh/vignette, dust and flight trails; and adds drag-adjusted arcs plus recorded foley and bin recoil. The 3D depth buffer handles paper entering the bin. Existing scores, twelve zones, browser URL and home-confirmed update flow remain intact.
 
+## V19 Mobile play
+V19 makes the game fully playable on phones and tablets: full-screen in portrait and landscape, no page scrolling or zooming while swiping, a one-time animated swipe tutorial for first-time mobile players, and touch handling that ignores phantom taps. Desktop browsers keep the exact same layout and controls.
+
 ## V18 Firebase High Scores
 V18 moves High Scores from JSONBin to Google Firebase Firestore, sharing the CamberDad games database with TankShot and Castle Rangers. Best streaks only rise and playtime only adds up; players' saved records upload from their device on first V18 sync. The board refreshes every 30 seconds.
 Unity source workspace: run `Tools/Publish-WebGL.ps1 -Message '<description>'` after building and testing. Verify Pages serves the new `release.json` and assets before calling an update deployed.
 
-Release folder: [V18](versions/v18/). Numbered folders are retained; the root URL remains current.
+Release folder: [V19](versions/v19/). Numbered folders are retained; the root URL remains current.
