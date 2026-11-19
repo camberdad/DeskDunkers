@@ -1,0 +1,31 @@
+﻿{
+    "version":  "V18",
+    "versionNumber":  18,
+    "assetVersion":  "v18-2e5bdf543d23",
+    "builtAtUtc":  "2026-11-19T00:55:28.9039053Z",
+    "gameUrl":  "https://camberdad.github.io/DeskDunkers/versions/v18/",
+    "currentGameUrl":  "https://camberdad.github.io/DeskDunkers/",
+    "description":  "V18: High Scores move from JSONBin to Google Firebase Firestore (shared TankShot database)",
+    "files":  [
+                  {
+                      "path":  "Build/WebGL.data.unityweb",
+                      "bytes":  58679722,
+                      "sha256":  "a81271ce4c2402384eee7b89d9629a5f6423f1f2b57a5f80dbb0cd48c66a8656"
+                  },
+                  {
+                      "path":  "Build/WebGL.framework.js.unityweb",
+                      "bytes":  67283,
+                      "sha256":  "2a47811bcd9d659c2bbc01333f8229c8b947679e6f11a3b4a403d4159abd25b6"
+                  },
+                  {
+                      "path":  "Build/WebGL.loader.js",
+                      "bytes":  118806,
+                      "sha256":  "d56eb16f8210a499be8fb3ca63f400e21202b3ac64a695d1e8c9b3c87da53a42"
+                  },
+                  {
+                      "path":  "Build/WebGL.wasm.unityweb",
+                      "bytes":  7689554,
+                      "sha256":  "7440dfd38f78d3449d12d93b94b3e41a8fd2e3db2f48198245f2b38d16784f0c"
+                  }
+              ]
+}
