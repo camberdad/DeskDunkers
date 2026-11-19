@@ -1,4 +1,4 @@
-﻿# Desk Dunkers
+# Desk Dunkers
 
 Unity WebGL release for CamberDad Games.
 
